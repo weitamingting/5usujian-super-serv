@@ -1,0 +1,50 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 5usujian-super-serv\n"
+"POT-Creation-Date: 2017-09-18 11:08+0800\n"
+"PO-Revision-Date: 2017-09-18 11:16+0800\n"
+"Last-Translator: \n"
+"Language-Team: 5usujian.com\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__;_n:1,2;_x:1,2c;_ex:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 5usujian-super-serv.php:53
+msgid "Settings"
+msgstr "设置"
+
+#: wysj-admin/wysj_super_serv_admin.php:42
+#: wysj-admin/wysj_super_serv_admin.php:651
+msgid "Save Change"
+msgstr "保存更改"
+
+#: wysj-front/5usujian-trade.php:35
+msgid "Hotline"
+msgstr "热线电话"
+
+#: wysj-front/5usujian-trade.php:57
+msgid "QQ"
+msgstr "QQ客服"
+
+#: wysj-front/5usujian-trade.php:80
+msgid "AliTM"
+msgstr "旺旺客服"
+
+#: wysj-front/5usujian-trade.php:103
+msgid "Email"
+msgstr "电子邮箱"
+
+#: wysj-front/5usujian-trade.php:126
+msgid "Skype"
+msgstr "Skype客服"
+
+#: wysj-front/5usujian-trade.php:149
+msgid "QQ Group"
+msgstr "QQ群"

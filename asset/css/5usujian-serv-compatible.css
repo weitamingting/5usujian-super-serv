@@ -1,0 +1,9 @@
+#scroll-top-link{display: none;}
+.wysj:before{font-family: "wysj" !important;}
+.wysj-preload, .wysj-preload *{-webkit-transition: none !important; -moz-transition: none !important; -ms-transition: none !important; -o-transition: none !important;}
+@media screen and (min-width: 450px){
+	/*电脑、平板端样式*/
+}
+@media screen and (max-width: 450px){
+	/*手机端样式*/
+}

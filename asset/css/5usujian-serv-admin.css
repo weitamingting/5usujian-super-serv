@@ -1,0 +1,46 @@
+.wy-serv h3{margin: 0.5em 0;}
+.wy-serv h1{font-weight: normal; margin: 1em 0;}
+.wy-serv .wy-serv-form{margin-top: 20px; border:1px solid #ccc; margin-right: 20px; background-color: #eee;}
+.wy-serv .wy-tab-header{text-align: right; padding:20px; position: relative;}
+.wy-serv .wysj-logo{position: absolute; left: 20px; top: 20px;}
+.wy-serv .wy-tab{border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; }
+.wy-serv .wy-tab:after,.wy-serv .wy-iconbox:after{ content:"."; clear:both; display:block; height:0; overflow:hidden; visibility:hidden;}
+.wy-serv .wy-tab-item{ float: left; width: 200px; border-right: 1px solid #cfcfcf;}
+.wy-serv .wy-tab-item a{display: block; width: 174px; padding:14px; color: #333; text-decoration: none; font-size: 14px; font-weight: bold; text-align: left; border-bottom: 1px solid #cfcfcf; position: relative;}
+.wy-serv .wy-tab-item .wy-sort-box{position: absolute; right: 10px; top: 8px;}
+.wy-serv .wy-tab-item .wy-sort-box i{font-size: 12px; color: #f00;}
+.wy-serv .wy-tooltips{position: absolute; font-weight: normal; font-size: 12px; background-color: #111; color: #fff; width: 200px; padding: 10px; top: -60px; left: -100px; display: none;}
+.wy-serv .wy-tooltips:after{content: ""; display: block; width: 14px; height: 14px; background-color: #111; position: absolute; bottom: -6px; left: 50%; transform:rotate(45deg); margin-left: -10px;}
+.wy-serv .wy-tab-item a.active{background-color: #fff;}
+.wy-serv .wy-tab-content{ margin-left: 201px; padding:10px 20px; background-color: #fff; min-height: 590px;}
+.wy-serv .wy-tab-content .wy-con-item{display: none; background-color: #fff;}
+.wy-serv .wy-tab-content .wy-con-item.active{display: block;}
+.wy-serv .form-table{clear: none;}
+.wy-serv .form-table th{width: 100px!important;}
+.wy-serv .form-table tr{border-bottom: 1px solid #eee;}
+.wy-serv .wy-add-phone,.wy-add-qq,.wy-add-ww,.wy-add-skype,.wy-add-diy{margin-top: 20px !important;margin-bottom: 10px !important;}
+.wy-serv .wy_tips{margin-left: 1em; font-style: normal; color: #999;}
+.wy-serv .wy-add-serv{margin-top:20px!important;}
+.wy-serv .wy-iconbox{border-top: 1px solid #eee; border-left: 1px solid #eee;}
+.wy-serv .wy-iconbox ul{margin:0;}
+.wy-serv .wy-iconbox li{float: left;}
+.wy-serv .wy-iconbox li a{display: block; width: 60px; height: 60px; text-align: center; line-height: 60px; color: #333; border-right:1px solid #eee; border-bottom:1px solid #eee; font-size: 24px; text-decoration: none;}
+.wy-serv .wy-iconbox li a.selected{ background-color: #0073aa; color: #fff;}
+.wy-diy-icon,
+.wy-shrink-icon,
+.wy-mobile-icon{padding:10px; margin-right: 10px; border:1px solid #ddd;}
+.wy-chose-box{position: fixed; top: 60px; left: 10%; right: 10%; z-index: 9999; background-color: #fff; padding:10px; box-shadow: 0px 0px 100px rgba(0,0,0,.3); display: none;}
+.wy-diy-item{display: table; width: 100%; margin-bottom:15px;}
+.wy-diy-section{display: table-cell; width: 25%;}
+.wy-diy-title{font-weight: bold; margin-right: 1em;}
+.wy-close-chose{position: absolute; right: -15px; top: -15px; background-color: #fff; text-decoration: none; padding:10px; border-radius: 50%; color: #000;}
+.wy-serv .wp-picker-holder{position: absolute; z-index: 99;}
+.wysj-dialog{width: 500px; height: 136px; background-color: #fcbe32; color: #fff; box-shadow: 0px 0px 50px rgba(0,0,0,.3); position: absolute; top:20%; left: 50%; margin-left: -250px; border-radius: 5px; box-sizing:border-box; padding:20px; display: table; opacity: 0; visibility: hidden; -webkit-transition:all 0.6s; -moz-transition:all 0.6s; -ms-transition:all 0.6s; transform:translate(0,100px);}
+.wysj-dialog .wysj-dialog-content{text-align: center; font-size: 18px; display: table-cell; vertical-align: middle;}
+.wysj-dialog.show{ transform:translate(0,0); opacity: 1; visibility: visible;}
+.wy-serv .wp-picker-container{display: inline-block;}
+.wy-serv .minicolors-theme-default .minicolors-input{height: auto; width: 162px;}
+.wy-serv .wysj-active-status{position: absolute; left: 20px; top: 20px; font-weight: bold;}
+.wy-serv .wysj-status-actived{color: green;}
+.wy-serv .wysj-status-deactive{color: red;}
+.wy-serv .wysj-status-icon{font-size: 20px;}
