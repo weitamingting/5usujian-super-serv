@@ -9,6 +9,7 @@
 * 支持自助上传图标；
 * 官方微博、官方店铺、其它各种推广页面，只要是链接，想放就放；
 
+### 效果预览地址：http://show.wysujian.com/super/
 ### wordpress插件官网地址：https://wordpress.org/plugins/5usujian-super-serv/
 
 ## 其它5usj.cn原创插件：
