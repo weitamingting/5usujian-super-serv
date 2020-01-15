@@ -1,14 +1,16 @@
 <?php
 	if ( ! defined( 'ABSPATH' ) ) exit;
 
-	function wysj_check_field_arr( $data ){
-		$arr = array();
-		$data_length = count( $data );
-		for( $i = 0; $i < $data_length; $i++ ){
-			$arr[] = sanitize_text_field( $data[$i] );
-		}
-		return $arr;
-	}
+	if(!function_exists('wysj_check_field_arr')){
+        function wysj_check_field_arr( $data ){
+            $arr = array();
+            $data_length = count( $data );
+            for( $i = 0; $i < $data_length; $i++ ){
+                $arr[] = sanitize_text_field( $data[$i] );
+            }
+            return $arr;
+        }
+    }
 	function wysj_serv_update_options(){
 		global $wysjServOptions;
 		if(isset($_POST['wysj_super_serv_update']) && isset($_POST['wysj_super_serv_nonce_update'])){

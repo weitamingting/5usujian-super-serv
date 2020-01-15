@@ -3,7 +3,7 @@
 Plugin Name: 5usujian-super-serv
 Plugin URI: https://www.5usj.cn/wp/5usujian-super-serv/
 Description: 在网站侧边添加一个风格优雅的客服悬浮窗，支持QQ、旺旺、Skype、WhatsApp、电话、QQ群、微信二维码、自定义客服
-Version: 1.1
+Version: 1.3
 Author: www.5usj.cn
 Author URI: https://www.5usj.cn
 */

@@ -3,8 +3,8 @@ Contributors: weitamingting
 Donate link: https://www.5usj.cn/
 Tags: QQ客服, 旺旺客服, 电子邮箱, Email, Skype, WhatsApp, QQ群, 二维码, 回到顶部, 悬浮窗
 Requires at least: 4.0
-Tested up to: 5.3
-Stable tag: 5.3
+Tested up to: 5.3.2
+Stable tag: 5.3.2
 Requires PHP: 5.2.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -52,5 +52,6 @@ QQ客服常见问题解答：<a href="https://www.5usj.cn/course/143.html" targe
 5. 添加旺旺客服
 
 == Changelog ==
-
+v1.3 
+修复个别情况下出现PHP报警情况
  == Upgrade Notice == 

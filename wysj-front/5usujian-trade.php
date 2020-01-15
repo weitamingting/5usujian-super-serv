@@ -38,6 +38,9 @@ function tradeHtml()
 <?php
 function getTradePhone(){
 	global $wysjServOptions;
+    if (!isset($wysjServOptions['phone'])){
+        return;
+    }
 	if ( count($wysjServOptions['phone']) > 0 && $wysjServOptions['phone'][0] != '') {
 			?>
 		<div class="wysj-trade-item">
@@ -63,6 +66,9 @@ function getTradePhone(){
 <?php
 function getTradeQQ(){
 	global $wysjServOptions;
+    if (!isset($wysjServOptions['qq'])){
+        return;
+    }
 	if ( count($wysjServOptions['qq']) > 0 && $wysjServOptions['qq'][0] != '') {
 			?>
 		<div class="wysj-trade-item">
@@ -89,6 +95,9 @@ function getTradeQQ(){
 <?php
 function getTradeWW(){
 	global $wysjServOptions;
+    if (!isset($wysjServOptions['ww'])){
+        return;
+    }
 	if ( count($wysjServOptions['ww']) > 0 && $wysjServOptions['ww'][0] != '') {
 			?>
 		<div class="wysj-trade-item">

@@ -7,6 +7,9 @@ function wysj_serv_is_lang($lang) {
 function wysj_serv_getAdminPhone()
 {
 	global $wysjServOptions;
+    if (!isset($wysjServOptions['phone'])){
+        return;
+    }
 	$number =  $wysjServOptions['phone'];
 	$title =  $wysjServOptions['phoneName'];
 	$html = '';
@@ -34,6 +37,9 @@ function wysj_serv_getAdminPhone()
 function wysj_serv_getAdminQQ()
 {
 	global $wysjServOptions;
+    if (!isset($wysjServOptions['qq'])){
+        return;
+    }
 	$number = $wysjServOptions['qq'];
 	$title = $wysjServOptions['qqName'];
 	$html = '';
@@ -61,6 +67,9 @@ function wysj_serv_getAdminQQ()
 function wysj_serv_getAdminWW()
 {
 	global $wysjServOptions;
+    if (!isset($wysjServOptions['ww'])){
+        return;
+    }
 	$number =  $wysjServOptions['ww'];
 	$title =  $wysjServOptions['wwName'];
 	$html = '';
